@@ -1,0 +1,55 @@
+RewriteEngine On
+RewriteBase /
+
+# Check if the requested file or directory exists
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Spanish URL rewriting
+RewriteRule ^s/([^/]+)/?$ set/$1.php?lang=es [L,QSA]
+RewriteRule ^g/([^/]+)/?$ get/$1.php?lang=es [L,QSA]
+RewriteRule ^b/([^/]+)/?$ boxes/$1.php?lang=es [L,QSA]
+RewriteRule ^servicios-de-produccion/peliculas/?$ production.php?type=1&lang=es&propia=0 [L,QSA]
+RewriteRule ^servicios-de-produccion/series/?$ production.php?type=2&lang=es&propia=0 [L,QSA]
+RewriteRule ^peliculas/?$ production.php?type=1&lang=es&propia=1 [L,QSA]
+RewriteRule ^series/?$ production.php?type=2&lang=es&propia=1 [L,QSA]
+RewriteRule ^pelicula/([a-zA-Z0-9_-]+)-([0-9]+)/?$ movie.php?id=$2&lang=es [L,QSA]
+RewriteRule ^serie/([a-zA-Z0-9_-]+)-([0-9]+)/?$ serie.php?id=$2&lang=es [L,QSA]
+RewriteRule ^contactanos/?$ contact.php?lang=es [L,QSA]
+RewriteRule ^nosotros/?$ about.php?lang=es [L,QSA]
+RewriteRule ^colaboradores/?$ equipo.php?lang=es [L,QSA]
+RewriteRule ^colaboradores/([a-zA-Z0-9_-]+)-([0-9]+)/?$ equipo.php?lang=es&id=$2 [L,QSA]
+RewriteRule ^noticias/?$ news.php?lang=es [L,QSA]
+RewriteRule ^noticias/([a-zA-Z0-9_-]+)-([0-9]+)/?$ newintern.php?id=$2&lang=es&type=1 [L,QSA]
+RewriteRule ^comunicados-de-prensa/?$ prensa.php?lang=es [L,QSA]
+RewriteRule ^comunicado-de-prensa/([a-zA-Z0-9_-]+)-([0-9]+)/?$ newintern.php?lang=es&id=$2&type=2 [L,QSA]
+RewriteRule ^socios/?$ socio.php?lang=es [L,QSA]
+RewriteRule ^socios/([a-zA-Z0-9_-]+)-([0-9]+)/?$ socio.php?lang=es&id=$2 [L,QSA]
+RewriteRule ^equipo/?$ team.php?lang=es [L,QSA]
+RewriteRule ^trabaja-con-nosotros/?$ work.php?lang=es [L,QSA]
+RewriteRule ^buscar/?$ search.php?lang=es [L,QSA]
+
+RewriteRule ^politica-de-recepcion-de-informacion-y-presentacion-de-ideas/?$ politics.php?lang=es&type=1 [L,QSA]
+RewriteRule ^politicas-de-tratamiento-de-datos-personales/?$ politics.php?lang=es&type=2 [L,QSA]
+RewriteRule ^terminos-condiciones/?$ politics.php?lang=es&type=3 [L,QSA]
+RewriteRule ^preguntas-frecuentes/?$ faq.php?lang=es [L,QSA]
+
+# English URL rewriting
+RewriteRule ^en/?$ index.php?lang=en [L,QSA]
+RewriteRule ^servicios-de-produccion/peliculas/?$ production.php?type=1&lang=en&propia=0 [L,QSA]
+RewriteRule ^servicios-de-produccion/series/?$ production.php?type=2&lang=en&propia=0 [L,QSA]
+RewriteRule ^peliculas/?$ production.php?type=1&lang=en&propia=1 [L,QSA]
+RewriteRule ^series/?$ production.php?type=2&lang=en&propia=1 [L,QSA]
+RewriteRule ^en/pelicula/([a-zA-Z0-9_-]+)-([0-9]+)/?$ movie.php?id=$2&lang=en [L,QSA]
+RewriteRule ^en/serie/([a-zA-Z0-9_-]+)-([0-9]+)/?$ serie.php?id=$2&lang=en [L,QSA]
+RewriteRule ^en/contactanos/?$ contact.php?lang=en [L,QSA]
+RewriteRule ^en/nosotros/?$ about.php?lang=en [L,QSA]
+RewriteRule ^en/colaboradores/?$ equipo.php?lang=en [L,QSA]
+RewriteRule ^en/noticias/?$ news.php?lang=en [L,QSA]
+RewriteRule ^en/comunicados-de-prensa/?$ prensa.php?lang=en [L,QSA]
+RewriteRule ^en/socios$ socio.php?lang=en [L,QSA]
+RewriteRule ^en/equipo$ team.php?lang=en [L,QSA]
+RewriteRule ^en/trabaja-con-nosotros$ work.php?lang=en [L,QSA]
+
+
+RewriteRule ^correos-recibidos/([a-zA-Z0-9_-]+)$ admin/emails.php?lang=en&type=$1 [L,QSA]

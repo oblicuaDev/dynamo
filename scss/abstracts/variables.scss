@@ -1,0 +1,19 @@
+:root {
+  --font-primary: "Montserrat", sans-serif;
+  --font-secondary: "Changa", sans-serif;
+  --font-tertiary: "Barlow Condensed", sans-serif;
+  --font-opensans: "Open Sans", sans-serif;
+}
+
+.Montserrat {
+  font-family: var(--font-primary);
+}
+.Changa {
+  font-family: var(--font-secondary);
+}
+.Barlow {
+  font-family: var(--font-tertiary);
+}
+.OpenSans {
+  font-family: var(--font-opensans);
+}

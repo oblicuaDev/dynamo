@@ -1,0 +1,55 @@
+[12-Jan-2023 18:04:20 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 18:04:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 18:04:35 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 18:04:35 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 18:09:37 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 18:09:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 18:17:50 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 18:17:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 19:07:24 UTC] PHP Notice:  Undefined variable: type_for in /home/bo39bipxontb/public_html/dynamo.mottif.tv/set/senForm.php on line 8
+[12-Jan-2023 19:07:24 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 19:07:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 19:29:03 UTC] PHP Notice:  Undefined variable: type_for in /home/bo39bipxontb/public_html/dynamo.mottif.tv/set/senForm.php on line 8
+[12-Jan-2023 19:29:03 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 19:29:03 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 19:35:03 UTC] PHP Notice:  Undefined variable: type_for in /home/bo39bipxontb/public_html/dynamo.mottif.tv/set/senForm.php on line 8
+[12-Jan-2023 19:35:03 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 19:35:03 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 19:39:19 UTC] PHP Notice:  Undefined offset: 2 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/set/senForm.php on line 5
+[12-Jan-2023 19:39:19 UTC] PHP Notice:  Undefined variable: type_for in /home/bo39bipxontb/public_html/dynamo.mottif.tv/set/senForm.php on line 8
+[12-Jan-2023 19:39:19 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 19:39:19 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 19:40:16 UTC] PHP Notice:  Undefined variable: type_for in /home/bo39bipxontb/public_html/dynamo.mottif.tv/set/senForm.php on line 8
+[12-Jan-2023 19:40:16 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 19:40:16 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 19:45:28 UTC] PHP Notice:  Undefined variable: type_for in /home/bo39bipxontb/public_html/dynamo.mottif.tv/set/senForm.php on line 29
+[12-Jan-2023 19:45:28 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 19:45:28 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 19:47:44 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 19:47:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 22:14:24 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 22:14:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 22:18:21 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 22:18:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 22:39:19 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 22:39:19 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 22:40:46 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 22:40:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 22:55:56 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 22:55:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 22:56:18 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 22:56:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 22:58:08 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 22:58:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 22:58:28 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[12-Jan-2023 22:58:28 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[13-Jan-2023 13:14:47 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[13-Jan-2023 13:14:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[18-Jan-2023 00:02:21 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[18-Jan-2023 00:02:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[18-Jan-2023 00:39:28 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[18-Jan-2023 00:39:28 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[18-Jan-2023 00:53:07 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[18-Jan-2023 00:53:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[18-Jan-2023 00:56:34 UTC] PHP Notice:  Undefined index: loggeduser in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54
+[18-Jan-2023 00:56:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/includes/mysql.php on line 54

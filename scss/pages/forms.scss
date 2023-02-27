@@ -1,0 +1,7 @@
+.forms {
+  main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 480px);
+    gap: 30px;
+  }
+}

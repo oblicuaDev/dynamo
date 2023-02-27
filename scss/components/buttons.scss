@@ -1,0 +1,101 @@
+.btn {
+  font-size: 11px;
+  padding: 13px 20px;
+  display: inline-flex;
+  text-transform: uppercase;
+  font-family: var(--font-secondary);
+  align-items: center;
+  justify-content: center;
+  &.nobg {
+    background-color: transparent;
+    border: 1px solid #fff;
+    &:hover {
+      background-color: #fff;
+      color: #000;
+    }
+  }
+  &.nobg.inverted {
+    background-color: transparent;
+    border: 1px solid #000;
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+  &.orange {
+    border: 1px solid #ff9900;
+    color: #ff9900;
+    &:hover {
+      background-color: #ff9900;
+      color: #fff;
+    }
+  }
+  &.orange-bg {
+    background-color: #ff9900;
+    border: 1px solid #ff9900;
+    color: #fff;
+    &:hover {
+      color: #ff9900;
+      background-color: transparent;
+    }
+  }
+  &.red {
+    padding: 8px 12px;
+    background-color: transparent;
+    border: 1px solid #ff3300;
+    color: #ff3300;
+    &:hover {
+      color: #fff;
+      background-color: #ff3300;
+    }
+  }
+  &.white {
+    padding: 8px 12px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    &:hover {
+      color: #000;
+      background-color: #fff;
+    }
+  }
+  &.more {
+    font-size: 11px;
+    border: 1px solid #ff9900;
+    color: #ff9900;
+    padding: 14px 60px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @media only screen and (max-width: 768px) {
+      transform: none;
+      top: initial;
+      position: static;
+      left: initial;
+      order: 1;
+    }
+    &:hover {
+      color: #fff;
+      background-color: #ff9900;
+    }
+  }
+  &.more2 {
+    font-size: 11px;
+    border: 1px solid #ff9900;
+    color: #ff9900;
+    padding: 14px 60px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    &:hover {
+      color: #fff;
+      background-color: #ff9900;
+    }
+    @media only screen and (max-width: 768px) {
+      width: 90%;
+    }
+  }
+}

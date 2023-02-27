@@ -1,0 +1,110 @@
+.socio {
+  background-color: #1a1a1a;
+  header {
+    position: static;
+  }
+  main {
+    padding-bottom: 60px;
+    h3 {
+      font-size: 30px;
+      line-height: 40px;
+      font-family: var(--font-primary);
+      margin: 40px 0;
+      font-weight: 100;
+      span {
+        color: #ff9900;
+      }
+    }
+
+    .single-socio {
+      background-repeat: no-repeat;
+
+      .container {
+        grid-template-columns: repeat(12, 1fr);
+        display: grid;
+        padding: 170px 16px;
+        height: 900px;
+        position: relative;
+        gap: 16px;
+        overflow: hidden;
+        align-items: center;
+        @media only screen and (max-width: 768px) {
+          align-items: flex-start;
+          height: auto;
+          padding: 0;
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+
+      .info {
+        position: relative;
+        padding: 30px 16px;
+        z-index: 8;
+        background-color: #fff;
+        color: #000;
+        overflow: hidden;
+        @media only screen and (max-width: 768px) {
+          grid-column: span 1;
+          padding: 90px 16px 16px;
+        }
+        h2 {
+          font-weight: 100;
+          font-family: var(--font-primary);
+          font-size: 40px;
+          line-height: 40px;
+          margin-bottom: 25px;
+        }
+        span.position {
+          font-weight: bold;
+          font-size: 16px;
+          display: block;
+          margin-bottom: 25px;
+          line-height: 18px;
+        }
+        p {
+          font-size: 12px;
+          line-height: 18px;
+          margin-bottom: 30px;
+          &:last-of-type {
+            margin: 0;
+          }
+        }
+      }
+      img {
+        grid-column: span 8;
+        height: 100%;
+        display: none;
+        @media only screen and (max-width: 768px) {
+          grid-column: span 1;
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
+        }
+      }
+      &.right {
+        background-size: cover;
+        @media only screen and (max-width: 768px) {
+          background: none !important;
+        }
+        .info {
+          grid-column: 8 / span 4;
+          @media only screen and (max-width: 768px) {
+            grid-column: span 1;
+          }
+        }
+      }
+      &.left {
+        background-size: cover;
+        @media only screen and (max-width: 768px) {
+          background: none !important;
+        }
+        .info {
+          grid-column: 1 / span 4;
+          @media only screen and (max-width: 768px) {
+            grid-column: span 1;
+          }
+        }
+      }
+    }
+  }
+}

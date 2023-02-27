@@ -1,0 +1,174 @@
+.contact {
+  header {
+    position: static;
+  }
+  main {
+    .container {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 16px;
+      padding: 0 20px;
+      @media only screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+      }
+      h1 {
+        font-weight: 100;
+        font-size: 30px;
+        line-height: 40px;
+        font-family: "Montserrat";
+        grid-column: span 12;
+        margin: 60px 0;
+        @media only screen and (max-width: 768px) {
+          grid-column: span 1;
+        }
+      }
+      hr {
+        border-color: #b3b3b3;
+        margin: 30px 0;
+      }
+      .short-data {
+        display: grid;
+        align-content: space-between;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+        grid-column: span 4;
+        grid-auto-rows: min-content;
+        @media only screen and (max-width: 768px) {
+          grid-template-columns: repeat(1, 1fr);
+          grid-column: span 1;
+        }
+        .txt {
+          grid-column: span 4;
+        }
+        strong {
+          color: #ff9900;
+          font-size: 16px;
+          line-height: 18px;
+          display: block;
+          text-transform: uppercase;
+          margin-bottom: 8px;
+          @media only screen and (max-width: 768px) {
+            grid-column: span 1;
+          }
+        }
+        p {
+          font-size: 12px;
+          line-height: 18px;
+          color: #fff;
+          @media only screen and (max-width: 768px) {
+            grid-column: span 1;
+          }
+          a {
+            font-size: 12px;
+            line-height: 18px;
+            color: #ff9900;
+            padding: 0;
+            &:hover {
+              opacity: 0.5;
+            }
+          }
+        }
+        a {
+          grid-column: span 2;
+          padding: 5px;
+          text-align: center;
+          @media only screen and (max-width: 768px) {
+            grid-column: span 1;
+          }
+        }
+      }
+      hr {
+        grid-column: span 12;
+        @media only screen and (max-width: 768px) {
+          grid-column: span 1;
+        }
+      }
+      .certificados {
+        grid-column: span 12;
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(12, 1fr);
+        @media only screen and (max-width: 768px) {
+          grid-template-columns: repeat(1, 1fr);
+          grid-column: span 1;
+        }
+        strong {
+          color: #ff9900;
+          font-size: 16px;
+          line-height: 18px;
+          display: block;
+          margin-bottom: 15px;
+          grid-column: span 12;
+          text-transform: uppercase;
+          @media only screen and (max-width: 768px) {
+            grid-column: span 1;
+          }
+        }
+        a {
+          grid-column: span 2;
+          padding: 5px;
+          text-align: center;
+          @media only screen and (max-width: 768px) {
+            grid-column: span 1;
+          }
+        }
+      }
+      .where {
+        grid-column: span 12;
+        display: grid;
+        gap: 16px;
+        padding: 100px 0;
+        grid-template-columns: repeat(12, 1fr);
+        @media only screen and (max-width: 768px) {
+          grid-template-columns: repeat(1, 1fr);
+          grid-column: span 1;
+        }
+        h3 {
+          grid-column: span 12;
+          font-size: 40px;
+          line-height: 42px;
+          font-family: var(--font-primary);
+          font-weight: 100;
+          margin: 0 0 40px;
+          color: #ff9900;
+          @media only screen and (max-width: 768px) {
+            grid-column: span 1;
+          }
+        }
+        p {
+          grid-column: span 4;
+          @media only screen and (max-width: 768px) {
+            grid-column: span 1;
+          }
+        }
+        .locations {
+          display: grid;
+          margin-top: 30px;
+          gap: 16px;
+          grid-column: 1 / span 12;
+          grid-template-columns: repeat(12, 1fr);
+          @media only screen and (max-width: 768px) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-column: span 1;
+          }
+          li {
+            grid-column: span 3;
+            @media only screen and (max-width: 768px) {
+              grid-column: span 1;
+            }
+            strong {
+              font-family: var(--font-primary);
+              font-weight: 100;
+              font-size: 32px;
+              margin: 22px 0 10px;
+              display: block;
+            }
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

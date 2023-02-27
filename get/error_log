@@ -1,0 +1,283 @@
+[12-Jan-2023 23:11:44 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:11:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:11:46 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:11:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:11:51 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:11:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:11:52 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:11:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:11:54 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:11:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:11:59 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:11:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:12:00 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:12:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:12:05 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:12:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:12:20 UTC] PHP Notice:  Undefined index: type in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 7
+[12-Jan-2023 23:12:20 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:12:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:12:21 UTC] PHP Notice:  Undefined index: type in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 7
+[12-Jan-2023 23:12:21 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:12:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:12:26 UTC] PHP Notice:  Undefined index: type in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 7
+[12-Jan-2023 23:12:26 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:12:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:12:27 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:12:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:13:30 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:13:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:13:31 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:13:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:13:36 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:13:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 38
+[12-Jan-2023 23:13:58 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 36
+[12-Jan-2023 23:13:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 36
+[12-Jan-2023 23:14:00 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 36
+[12-Jan-2023 23:14:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 36
+[12-Jan-2023 23:14:00 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 36
+[12-Jan-2023 23:14:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 36
+[12-Jan-2023 23:14:01 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 36
+[12-Jan-2023 23:14:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 36
+[12-Jan-2023 23:14:01 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 36
+[12-Jan-2023 23:14:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 36
+[12-Jan-2023 23:14:01 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 36
+[12-Jan-2023 23:14:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 36
+[12-Jan-2023 23:14:01 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 36
+[12-Jan-2023 23:14:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 36
+[12-Jan-2023 23:14:01 UTC] PHP Notice:  Undefined variable: db in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 36
+[12-Jan-2023 23:14:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function customQuery() on null in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 36
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:10 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:50 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:50 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:50 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:50 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:50 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:50 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:50 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:50 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:19:50 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:20:08 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:20:08 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:20:08 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:20:08 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:20:08 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:20:08 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:20:08 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:20:08 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:20:08 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:21:23 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:21:23 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:21:23 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:21:23 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:21:23 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:21:23 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:21:23 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:21:23 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46
+[13-Jan-2023 13:21:23 UTC] PHP Notice:  Undefined offset: 1 in /home/bo39bipxontb/public_html/dynamo.mottif.tv/get/exportExcel.php on line 46

@@ -1,0 +1,60 @@
+.faq {
+  header {
+    position: static;
+  }
+  main .container {
+    padding-bottom: 120px;
+    h2 {
+      font-size: 30px;
+      font-family: var(--font-primary);
+      font-weight: 100;
+      margin: 40px 0;
+      grid-column: span 12;
+    }
+    h3 {
+      color: #f90;
+      font-size: 40px;
+      line-height: 80px;
+      grid-column: span 12;
+    }
+    details {
+      grid-column: 4 / span 9;
+      width: 100%;
+      border-bottom: 1px solid #fff;
+      position: relative;
+
+      transition: max-height 0.25s ease-out;
+      &::after {
+        content: "";
+        transition: all 0.25s ease-out;
+        border-top: 5px solid #fff;
+        border-right: 5px solid #fff;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%) rotate(135deg);
+        width: 10px;
+        height: 10px;
+      }
+      &[open] {
+        border-bottom: 0px solid #fff;
+        max-height: 100%;
+        &::after {
+          transform: translateY(-50%) rotate(-135deg);
+        }
+      }
+      summary {
+        font-size: 24px;
+        padding: 0 0 24px 0;
+        cursor: pointer;
+        line-height: 38px;
+        position: relative;
+      }
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 16px;
+    }
+  }
+}
