@@ -18,6 +18,6 @@
   </li>
     <li><a href="<?=$lang == "es" ? "" : "en/"?>contactanos/" class="Changa uppercase <?=isset($activeMenu) && $activeMenu == 5 ? 'active' : ''?>">contáctanos</a></li>
     <li><a href="<?=$lang == "es" ? "" : "en/"?>noticias/" class="Changa uppercase <?=isset($activeMenu) && $activeMenu == 6 ? 'active' : ''?>">Noticias</a></li>
-    <li><a href="<?=$lang == "es" ? "" : "en/"?>comunicados-de-prensa" class="Changa uppercase <?=isset($activeMenu) && $activeMenu == 7 ? 'active' : ''?>">Comunicados</a></li>
+    <li><a href="<?=$lang == "es" ? "" : "en/"?>comunicados-de-prensa" class="Changa uppercase <?=isset($activeMenu) && $activeMenu == 7 ? 'active' : ''?>">Prensa</a></li>
   </ul>
 </nav>

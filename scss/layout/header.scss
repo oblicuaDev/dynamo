@@ -20,7 +20,7 @@ header {
       grid-template-columns: repeat(12, 1fr);
       justify-content: space-between;
       gap: 16px;
-      padding: 20px 0;
+      padding: 20px 0 0 0;
       @media only screen and (max-width: 768px) {
         padding: 20px 0 0;
         grid-template-columns: 1fr;
@@ -31,7 +31,7 @@ header {
         display: flex;
         gap: 16px;
         align-items: center;
-        height: 100%;
+        height: calc(100% - 20px);
         justify-content: flex-end;
 
         @media only screen and (max-width: 768px) {
@@ -42,6 +42,8 @@ header {
         ul.socials {
           display: flex;
           gap: 10px;
+          top:3px;
+          position:relative;
           svg {
             width: 20px;
             height: 20px;

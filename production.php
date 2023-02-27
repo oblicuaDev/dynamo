@@ -97,7 +97,7 @@ include 'includes/header.php';
         countries: banner.field_paises,
         year: banner.field_year,
         time: banner.field_duracion,
-        director: banner.field_cliente,
+        director: banner.field_creado_por,
         festivals: festivales,
         platfforms: plataformas,
       };

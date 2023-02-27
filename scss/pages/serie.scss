@@ -10,7 +10,7 @@
         font-size: 30px;
         font-family: var(--font-primary);
         font-weight: 100;
-        margin: 40px 0;
+        margin: 10px 0 20px 0;
         span {
           color: #ff9900;
         }
@@ -168,13 +168,16 @@
             grid-column: span 1;
           }
           .festivales {
+            
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
             img {
-              width: 100px;
+              background: rgba(255,255,255,0.1);
+              margin-bottom:20px;
+              width: 160px;
               object-fit: contain;
-              height: 100px;
+              height: 160px;
             }
           }
           h4 {
@@ -268,6 +271,7 @@
           grid-template-rows: repeat(3, 1fr);
           gap: 16px;
           grid-column: span 9;
+          margin-top:20px;
           @media only screen and (max-width: 768px) {
             grid-template-columns: repeat(2, 1fr);
             grid-column: span 1;

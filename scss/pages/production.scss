@@ -15,7 +15,7 @@
         font-size: 30px;
         font-family: var(--font-primary);
         font-weight: 100;
-        margin: 40px 0;
+        margin: 10px 0 20px 0;
         grid-column: span 12;
         @media only screen and (max-width: 768px) {
           grid-column: span 1;
@@ -113,6 +113,7 @@
             font-size: 70px;
             line-height: 70px;
             font-weight: 100;
+            max-width:750px;
             @media only screen and (max-width: 768px) {
               margin-bottom: 10px;
               font-size: 40px;
@@ -154,7 +155,7 @@
             gap: 16px;
             min-height: 70px;
             img {
-              width: 110px;
+              width: 160px;
               object-fit: contain;
             }
           }
@@ -257,7 +258,7 @@
             }
             h6,
             p {
-              font-size: 16px;
+              font-size: 15px;
               line-height: 18px;
               font-family: "Barlow Condensed", sans-sxerif;
               font-weight: 300;
@@ -291,7 +292,7 @@
                 gap: 16px;
 
                 img {
-                  width: 110px;
+                  width: 130px;
                   object-fit: contain;
                   // @media only screen and (max-width: 1200px) {
                   //   width: 40px;

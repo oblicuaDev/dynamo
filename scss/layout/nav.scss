@@ -33,8 +33,9 @@ nav.float {
         }
 
         &.active {
+          color: #ff9900;
           &::after {
-            content: "";
+            //content: "";
             border-top: 5px solid #fff;
             border-right: 5px solid #fff;
             position: absolute;

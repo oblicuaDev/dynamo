@@ -84,7 +84,7 @@
               <a href="<?=$lang == "es" ? "" : "en/"?>noticias/">Noticias</a>
             </li>
             <li>
-              <a href="<?=$lang == "es" ? "" : "en/"?>comunicados-de-prensa">Comunicados</a>
+              <a href="<?=$lang == "es" ? "" : "en/"?>comunicados-de-prensa">Prensa</a>
             </li>
           </ul>
         </nav>
