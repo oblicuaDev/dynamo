@@ -1,10 +1,17 @@
 let globalURL = "https://dynamo.mottif.tv";
 
-const getFestivalesPlataformas = async (element, type) => {
+const getFestivalesPlataformas = async (element, type, q=0) => {
   let logos = [];
+  
   if (element[type] != "" && element[type] != undefined) {
     let festivales = element[type].split(", ");
-    for (let f = 0; f < festivales.length; f++) {
+    let limit = festivales.length;
+    if(q>0)
+    {
+      limit = 1;
+    }
+    console.log(limit);
+    for (let f = 0; f < limit; f++) {
       const festival = festivales[f];
       let logo = await getTaxs(festival);
       logos.push(`<img src="${globalURL}${logo}" alt="${logo}" />`);
@@ -28,7 +35,12 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   }
-
+  if (document.querySelector(".serie")) {
+    //console.log("Okokoko");
+       // document.querySelector("main").style.height = document.querySelector("main").offsetHeight- 220 +"px";
+        
+    
+  }
   if (document.querySelector(".splide__home-1")) {
     new Splide(".splide__home-1", {
       perPage: 5,
@@ -411,15 +423,15 @@ if (document.querySelector(".production")) {
               if (element.field_premios) {
                 festivales = await getFestivalesPlataformas(
                   element,
-                  "field_premios"
+                  "field_premios",1
                 );
               }
-              if (element.field_plataforma) {
+              /*if (element.field_plataforma) {
                 plataformas = await getFestivalesPlataformas(
                   element,
                   "field_plataforma"
                 );
-              }
+              }*/
               let template = `
               <li>
               <a href="/${type}/${get_alias(serie.title)}-${element.nid}">
@@ -459,12 +471,13 @@ if (document.querySelector(".production")) {
               const element = allItems[index];
               const festivales = await getFestivalesPlataformas(
                 element,
-                "field_premios"
+                "field_premios",1
               );
-              const plataformas = await getFestivalesPlataformas(
+
+              /*const plataformas = await getFestivalesPlataformas(
                 element,
                 "field_plataforma"
-              );
+              );*/
 
               let template = `
               <li>
@@ -479,7 +492,7 @@ if (document.querySelector(".production")) {
                     <h4>${element.title}</h4>
                     ${
                       element.field_creado_por
-                        ? `<h5>NOMBRE DIRECTOR ${element.field_creado_por}</h5>`
+                        ? `<h5>${element.field_creado_por}</h5>`
                         : ``
                     }
                     
@@ -493,13 +506,14 @@ if (document.querySelector(".production")) {
                     ${festivales ? festivales : ""}
                     </div>
                     <div class="platforms">
-                    ${plataformas ? plataformas : ""}
+                    
                     </div>
                   </div>
                 </div>
               </a>
             </li>
               `;
+              //${plataformas ? plataformas : ""}
               document.querySelector(".recents .grid-recents").innerHTML +=
                 template;
             }
@@ -528,7 +542,7 @@ if (document.querySelector(".production")) {
                   <h4>${element.title}</h4>
                   ${
                     element.field_creado_por
-                      ? `<h5>NOMBRE DIRECTOR ${element.field_creado_por}</h5>`
+                      ? `<h5>${element.field_creado_por}</h5>`
                       : ``
                   }
                   <h6>${element.field_paises} / ${element.field_year} / ${
@@ -541,13 +555,14 @@ if (document.querySelector(".production")) {
                   ${festivales ? festivales : ""}
                   </div>
                   <div class="platforms">
-                  ${plataformas ? plataformas : ""}
+                  
                   </div>
                 </div>
               </div>
             </a>
           </li>
             `;
+            //${plataformas ? plataformas : ""}
             list.innerHTML += template;
           }
         }
