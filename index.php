@@ -3,9 +3,13 @@
       <div class="banner-home">
         <img src="" alt="monos" />
         <div class="info">
-          <div class="top">
-            <h2></h2>
+        <div class="top">
+            <h2>MONOS</h2>
             <div class="director">
+              <strong class="uppercase">Alejandro Landes</strong>
+              <p class="Barlow">
+                COLOMBIA, ARGENTINA, ALEMANIA, ESTADOS UNIDOS / 2019 / 102 MIN.
+              </p>
             </div>
           </div>
           <div id="dots">

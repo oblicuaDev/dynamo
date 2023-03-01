@@ -3,11 +3,8 @@
   $bodyClass = "news"; 
   include 'includes/header.php';
   include 'includes/nav.php';
-  $news = $sdk->gPrensa("", true);
-$bannerNews = $filtered_array = array_filter($news, function($obj) {
-  return $obj->field_on_slider == '1';
-});
-
+  $news = $sdk->gPrensa("");
+  $bannerNews = $filtered_array = array_filter($news, function($obj) {return $obj->field_on_slider == '1';});
 ?> 
 
     <main>

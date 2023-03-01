@@ -46,7 +46,11 @@
         height: 50%;
         bottom: 0;
         left: 0;
-        background-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 75%);
+        background-image: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 0%,
+          rgba(0, 0, 0, 1) 75%
+        );
       }
     }
 
@@ -79,10 +83,9 @@
           grid-template-columns: repeat(1, 1fr);
           grid-column: span 1;
         }
-        p
-        {
-          font-size:20px;
-          line-height:25px;
+        p {
+          font-size: 20px;
+          line-height: 25px;
         }
         .left {
           grid-column: span 5;
@@ -168,13 +171,12 @@
             grid-column: span 1;
           }
           .festivales {
-            
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
             img {
-              background: rgba(255,255,255,0.1);
-              margin-bottom:20px;
+              background: rgba(255, 255, 255, 0.1);
+              margin-bottom: 20px;
               width: 160px;
               object-fit: contain;
               height: 160px;
@@ -268,10 +270,9 @@
         .gallery {
           display: grid;
           grid-template-columns: repeat(3, 1fr);
-          grid-template-rows: repeat(3, 1fr);
           gap: 16px;
           grid-column: span 9;
-          margin-top:20px;
+          margin-top: 20px;
           @media only screen and (max-width: 768px) {
             grid-template-columns: repeat(2, 1fr);
             grid-column: span 1;

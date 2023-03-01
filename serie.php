@@ -128,6 +128,8 @@
     }else{
       document.querySelector(".festivales").innerHTML += premios;
     }
+    document.querySelector("main").style.height =
+      document.querySelector("main").clientHeight - 180 + "px";
   }
   getAll();
 </script>

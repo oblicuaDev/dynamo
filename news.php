@@ -3,7 +3,7 @@
   $bodyClass = "news"; 
   include 'includes/header.php';
   include 'includes/nav.php';
-  $news = $sdk->gNews("", true);
+  $news = $sdk->gNews("");
   $bannerNews = $filtered_array = array_filter($news, function($obj) {
     return $obj->field_on_slider == '1';
   });
