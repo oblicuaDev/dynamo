@@ -17,39 +17,112 @@ class DynamoSDK {
     $this->infoGnrl = $this->gInfo();
   }
 
-  function query($url, $body = "", $extra = []){
+  public function reindexCache(){
+    $dirPath = "/home/uiumji3ay04q/public_html/cache";
+    if (! is_dir($dirPath)) {
+                throw new InvalidArgumentException("$dirPath must be a directory");
+            }
+            if (substr($dirPath, strlen($dirPath) - 1, 1) != '/') {
+                $dirPath .= '/';
+            }
+            $files = glob($dirPath . '*', GLOB_MARK);
+            foreach ($files as $file) {
+                if (is_dir($file)) {
+                    self::deleteDir($file);
+                } else {
+                    unlink($file);
+                }
+            }
+            rmdir($dirPath);
+    echo "Caché reiniciado";
+  }
+  public function query($endpoint, $body = "", $extra = [],$cache=true)
+  {
     $query = [
       'langcode' => $this->language,
     ];
 
-    if ($extra) {
-      $extra_params = [];
-      foreach ($extra as $param) {
-          list($key, $value) = explode('=', $param);
-          $extra_params[$key] = $value;
+      $cacheAbsoluteRoute = "/home/bo39bipxontb/public_html/dynamo.mottif.tv/cache";
+      if ($extra) {
+        $extra_params = [];
+        foreach ($extra as $param) {
+            list($key, $value) = explode('=', $param);
+            $extra_params[$key] = $value;
+        }
+        $query = array_merge($query, $extra_params);
       }
-      $query = array_merge($query, $extra_params);
-    }
+      $query_string = http_build_query($query);
+      $url = "{$this->domain}{$endpoint}?{$query_string}";
+      $ch = curl_init();
+      curl_setopt($ch, CURLOPT_URL, $url);
+      curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+      $filetitle = $this->get_alias($endpoint).".json";
+      
+      if($cache)
+      {
+          
+          if (!file_exists($cacheAbsoluteRoute)) {
+              mkdir($cacheAbsoluteRoute, 0777, true);
+          }
+          $path = $cacheAbsoluteRoute."/".$filetitle;
 
-    $query_string = http_build_query($query);
+          if(file_exists($path)){
+              //echo "exists";
+              $data = file_get_contents($path);
+              $ok =  json_decode($data);
+              return $ok->response;
+          }else{
+              $output = curl_exec($ch);
+              $request = json_decode($output);
+              
+              $finalstructure = '{"endpoint":"'.$endpoint.'","lastUpdate":"'.date("Y-m-d").'","response":'.$output.'}';
+              $bwriting = file_put_contents($path, $finalstructure); 
+              curl_close($ch);
+              return $request;
+          }
+      }else
+      {
+              $output = curl_exec($ch);
+              $request = json_decode($output);
+              curl_close($ch);
+              return $request;
+      }
+      
+  }
+
+//   function query($url, $body = "", $extra = []){
+//     $query = [
+//       'langcode' => $this->language,
+//     ];
+
+//     if ($extra) {
+//       $extra_params = [];
+//       foreach ($extra as $param) {
+//           list($key, $value) = explode('=', $param);
+//           $extra_params[$key] = $value;
+//       }
+//       $query = array_merge($query, $extra_params);
+//     }
+
+//     $query_string = http_build_query($query);
   
-    $endpoint = "{$this->domain}{$url}?{$query_string}";
+//     $endpoint = "{$this->domain}{$url}?{$query_string}";
 
-    $curl = curl_init();
-    curl_setopt($curl, CURLOPT_URL, $endpoint);
-    curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-    $output = curl_exec($curl);
-    curl_close($curl);
+//     $curl = curl_init();
+//     curl_setopt($curl, CURLOPT_URL, $endpoint);
+//     curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+//     $output = curl_exec($curl);
+//     curl_close($curl);
 
-    $request = json_decode($output);
+//     $request = json_decode($output);
 
-    if (!$this->production) {
-        echo "<br><br><strong>" . $endpoint . "</strong><br>";
-        print_r($request);
-    }
+//     if (!$this->production) {
+//         echo "<br><br><strong>" . $endpoint . "</strong><br>";
+//         print_r($request);
+//     }
 
-    return $request;
-}
+//     return $request;
+// }
 
   // Add additional functions for other HTTP methods as needed
   function gInfo(){

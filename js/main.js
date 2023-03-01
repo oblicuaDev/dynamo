@@ -217,11 +217,19 @@ if (document.querySelector(".banner-home")) {
       let timeSlider = 4000;
       let dots = document.getElementById("dots");
       arraybanners.map((banner, i) => {
-        dots.innerHTML += `<div class="dot"><div class="dot-fill"></div></div>`;
+        dots.innerHTML += `<div class="dot" data-dotindex="${i}"><div class="dot-fill"></div></div>`;
       });
       let dotElements = document.querySelectorAll(".dot");
-
-      function animationStart() {
+      dotElements.forEach((dot) => {
+        dot.addEventListener("click", () => {
+          console.log("CLICK");
+          animationStart(dot.dataset.dotindex);
+        });
+      });
+      function animationStart(setIndex = null) {
+        if (setIndex) {
+          index = setIndex;
+        }
         document.querySelector(
           ".banner-home .btn.more"
         ).href = `${arraybanners[index].link}`;
@@ -244,6 +252,7 @@ if (document.querySelector(".banner-home")) {
             : ``
         }`;
         dotElements[index].classList.add("active");
+
         if (index == arraybanners.length - 1) {
           index = 0;
           setTimeout(() => {
@@ -925,134 +934,55 @@ function customSelect() {
   document.addEventListener("click", closeAllSelect);
 }
 
-// let typesContent = ["Películas", "Temporadas", "Noticias"];
-// if (document.querySelector(".banner-home")) {
-//   const getBannersHome = async () => {
-//     // Build the URLs for the API calls
-//     const urls = infoGnrl.field_banners_home
-//       .split(", ")
-//       .map((id) => `get/banners.php?id=${id}`);
+if (document.querySelector(".banner-news")) {
+  let index = 0;
+  let timeSlider = 4000;
+  let dots = document.getElementById("dots");
+  arraybannersNews.map((banner, i) => {
+    dots.innerHTML += `<div class="dot"><div class="dot-fill"></div></div>`;
+  });
+  let dotElements = document.querySelectorAll(".dot");
 
-//     // Make the API calls and get the responses
-//     const arrayOfResponses = await Promise.all(
-//       urls.map(async (url) => {
-//         const response = await fetch(url);
-//         return response.json();
-//       })
-//     );
-
-//     // Map the responses to the desired data structure
-//     const dataMap = await Promise.all(
-//       arrayOfResponses.map(async (banner) => {
-//         let link, festivales, plataformas;
-
-//         const commonFields = {
-//           image: `${globalURL}${banner.field_banner || banner.field_image}`,
-//           name: banner.title,
-//         };
-
-//         switch (banner.type) {
-//           case typesContent[0]: // Películas
-//           case typesContent[1]: // Temporadas
-//             let typeText =
-//               banner.type == "Películas"
-//                 ? "pelicula"
-//                 : banner.type == "Temporadas"
-//                 ? "serie"
-//                 : "";
-//             link = `/${typeText}/${get_alias(banner.title)}-${banner.nid}`;
-//             festivales = await getFestivalesPlataformas(
-//               banner,
-//               "field_premios"
-//             );
-//             plataformas = await getFestivalesPlataformas(
-//               banner,
-//               "field_plataforma"
-//             );
-//             return {
-//               ...commonFields,
-//               countries: banner.field_paises,
-//               year: banner.field_year,
-//               time: banner.field_duracion,
-//               director: banner.field_cliente,
-//               festivals: festivales,
-//               platfforms: plataformas,
-//               link: link,
-//             };
-
-//           case typesContent[2]: // Noticias
-//             link =
-//               banner.field_link_noticia ||
-//               `/${banner.type.toLowerCase()}/${get_alias(banner.title)}-${
-//                 banner.nid
-//               }`;
-//             return {
-//               ...commonFields,
-//               link: link,
-//             };
-
-//           default:
-//             return null;
-//         }
-//       })
-//     );
-
-//     return dataMap;
-//   };
-
-//   // Use the getBannersHome function
-
-//   getBannersNews()
-//     .then((arraybanners) => {
-//       let index = 0;
-//       let timeSlider = 4000;
-//       let dots = document.getElementById("dots");
-//       arraybanners.map((banner, i) => {
-//         dots.innerHTML += `<div class="dot"><div class="dot-fill"></div></div>`;
-//       });
-//       let dotElements = document.querySelectorAll(".dot");
-
-//       function animationStart() {
-//         document.querySelector(
-//           ".banner-home .btn.more"
-//         ).href = `${arraybanners[index].link}`;
-//         document.querySelector(
-//           ".banner-home img"
-//         ).src = `${arraybanners[index].image}`;
-//         document.querySelector(
-//           ".info .top h2"
-//         ).innerHTML = `${arraybanners[index].name}`;
-//         document.querySelector(".director strong").innerHTML = `${
-//           arraybanners[index].field_cliente
-//             ? arraybanners[index].field_cliente
-//             : ``
-//         }`;
-//         document.querySelector(".director p").innerHTML = `${
-//           arraybanners[index].countries &&
-//           arraybanners[index].year &&
-//           arraybanners[index].time
-//             ? `${arraybanners[index].countries} / ${arraybanners[index].year} / ${arraybanners[index].time}`
-//             : ``
-//         }`;
-//         dotElements[index].classList.add("active");
-//         if (index == arraybanners.length - 1) {
-//           index = 0;
-//           setTimeout(() => {
-//             dotElements.forEach((dot) => dot.classList.remove("active"));
-//           }, timeSlider - 300);
-//         } else {
-//           index++;
-//         }
-//         width = 0;
-//       }
-//       animationStart();
-//       intervalAnimationStart = setInterval(() => {
-//         animationStart();
-//       }, timeSlider);
-//     })
-//     .then(() => document.getElementById("preloader").classList.add("hidden"));
-// } else {
-//   document.addEventListener("DOMContentLoaded", () => {
-//     document.getElementById("preloader").classList.add("hidden");
-//   });
-// }
+  function animationStart() {
+    document.querySelector(
+      ".banner-news .btn.more"
+    ).href = `${arraybannersNews[index].link}`;
+    document.querySelector(
+      ".banner-news img"
+    ).src = `${arraybannersNews[index].image}`;
+    document.querySelector(
+      ".info .top h2"
+    ).innerHTML = `${arraybannersNews[index].name}`;
+    document.querySelector(".director strong").innerHTML = `${
+      arraybannersNews[index].field_cliente
+        ? arraybannersNews[index].field_cliente
+        : ``
+    }`;
+    document.querySelector(".director p").innerHTML = `${
+      arraybannersNews[index].countries &&
+      arraybannersNews[index].year &&
+      arraybannersNews[index].time
+        ? `${arraybannersNews[index].countries} / ${arraybannersNews[index].year} / ${arraybannersNews[index].time}`
+        : ``
+    }`;
+    dotElements[index].classList.add("active");
+    if (index == arraybannersNews.length - 1) {
+      index = 0;
+      setTimeout(() => {
+        dotElements.forEach((dot) => dot.classList.remove("active"));
+      }, timeSlider - 300);
+    } else {
+      index++;
+    }
+    width = 0;
+  }
+  animationStart();
+  intervalAnimationStart = setInterval(() => {
+    animationStart();
+  }, timeSlider);
+  document.getElementById("preloader").classList.add("hidden");
+} else {
+  document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("preloader").classList.add("hidden");
+  });
+}
