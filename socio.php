@@ -33,8 +33,8 @@
                 <div class="container">
                   <div class="info">
                     <img
-                      src="images/singleSocio.png"
-                      alt="images/singleSocio.png"
+                      src="<?=$sdk->globalURL . $socios[$i]->field_foto?>"
+                      alt="<?=$sdk->globalURL . $socios[$i]->field_foto?>"
                     />
                     <h2><?=$socios[$i]->title?></h2>
                     <span class="position"><?=$socios[$i]->field_profesion?></span>

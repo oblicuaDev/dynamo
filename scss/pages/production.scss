@@ -113,7 +113,7 @@
             font-size: 70px;
             line-height: 70px;
             font-weight: 100;
-            max-width:750px;
+            max-width: 750px;
             @media only screen and (max-width: 768px) {
               margin-bottom: 10px;
               font-size: 40px;
@@ -126,8 +126,9 @@
               text-align: left;
             }
             strong,
+            span,
             p {
-              font-size: 12px;
+              font-size: 15px;
             }
           }
         }

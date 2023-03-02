@@ -102,6 +102,7 @@
           <div class="gallery">
             <?php 
             $galeria = explode(", ",$temporada->field_galeria_imagenes );
+            $galeriaG = explode(", ",$temporada->field_galeria_imagenes_grandes );
             // for ($i = 0; $i < count($galeria); $i += 2) {
             //   $element1 = $galeria[$i];
             //   $element2 = $galeria[$i+1];
@@ -109,7 +110,8 @@
             // }
             for ($i = 0; $i < count($galeria); $i++) {
               $element1 = $galeria[$i];
-              echo "<a href='' data-fancybox='gallery' data-src='$element1'><img src='$element1' alt='foto'/></a>";
+              $element2 = $galeriaG[$i];
+              echo "<a href='' data-fancybox='gallery' data-src='$element2'><img src='$element1' alt='foto'/></a>";
             }
             ?>
           </div>
@@ -128,8 +130,10 @@
     }else{
       document.querySelector(".festivales").innerHTML += premios;
     }
-    document.querySelector("main").style.height =
-      document.querySelector("main").clientHeight - 180 + "px";
+    if(window.innerWidth > 768){
+      document.querySelector("main").style.height =
+        document.querySelector("main").clientHeight - 180 + "px";
+    }
   }
   getAll();
 </script>

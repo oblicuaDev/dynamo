@@ -12,7 +12,7 @@ const getFestivalesPlataformas = async (element, type, q = 0) => {
     if (q > 0) {
       limit = 1;
     }
-    console.log(limit);
+
     for (let f = 0; f < limit; f++) {
       const festival = festivales[f];
       let logo = await getTaxs(festival);
@@ -36,10 +36,6 @@ document.addEventListener("DOMContentLoaded", () => {
         e.preventDefault();
       });
     });
-  }
-  if (document.querySelector(".serie")) {
-    //console.log("Okokoko");
-    // document.querySelector("main").style.height = document.querySelector("main").offsetHeight- 220 +"px";
   }
   if (document.querySelector(".splide__home-1")) {
     new Splide(".splide__home-1", {
@@ -72,7 +68,9 @@ document.addEventListener("DOMContentLoaded", () => {
             let template = `
             <li class="slider-4-item splide__slide">
               <div class="text">
-               ${element.field_descripcion_corta}
+              <p>
+              ${element.title}
+              </p>
                 <small>${element.field_fecha}</small>
                 <a href="${element.field_link_noticia}" target="_blank" class="btn nobg">VER MÁS</a>
               </div>
@@ -83,7 +81,11 @@ document.addEventListener("DOMContentLoaded", () => {
             list.innerHTML += template;
           });
         })
-        .then(() => new Splide(".slider-4", { pagination: false }).mount());
+        .then(() =>
+          new Splide(".slider-4", {
+            pagination: false,
+          }).mount()
+        );
     }
     getNews();
   }
@@ -131,6 +133,9 @@ document.addEventListener("DOMContentLoaded", () => {
       document.querySelector(".menu").classList.toggle("active");
     });
   }
+  setTimeout(() => {
+    document.getElementById("preloader").classList.add("hidden");
+  }, 600);
 });
 let typesContent = ["Películas", "Temporadas", "Noticias"];
 if (document.querySelector(".banner-home")) {
@@ -269,10 +274,102 @@ if (document.querySelector(".banner-home")) {
       }, timeSlider);
     })
     .then(() => document.getElementById("preloader").classList.add("hidden"));
-} else {
-  document.addEventListener("DOMContentLoaded", () => {
-    document.getElementById("preloader").classList.add("hidden");
-  });
+}
+if (document.querySelector(".banner-production")) {
+  async function getAllInfoBannersProductions() {
+    let arraybannersProductions = await Promise.all(
+      arrayOfResponses.map(async (banner) => {
+        const festivales = await getFestivalesPlataformas(
+          banner,
+          "field_premios"
+        );
+        const plataformas = await getFestivalesPlataformas(
+          banner,
+          "field_plataforma"
+        );
+        let typeText =
+          typeProd == "1" ? "pelicula" : typeProd == "2" ? "serie" : "";
+        let link = `/${typeText}/${get_alias(banner.title)}-${banner.nid}`;
+
+        return {
+          nid: banner.nid,
+          image: `${globalURL}${banner.field_banner}`,
+          name: banner.title,
+          countries: banner.field_paises,
+          year: banner.field_year,
+          time: banner.field_duracion,
+          director: banner.field_creado_por,
+          cliente: banner.field_cliente,
+          link: link,
+          festivales: festivales,
+          plataformas: plataformas,
+        };
+      })
+    );
+    let index = 0;
+    let timeSlider = 4000;
+    let dots = document.getElementById("dots");
+    arraybannersProductions.map((banner, i) => {
+      dots.innerHTML += `<div class="dot" data-dotindex="${i}"><div class="dot-fill"></div></div>`;
+    });
+    let dotElements = document.querySelectorAll(".dot");
+    dotElements.forEach((dot) => {
+      dot.addEventListener("click", () => {
+        console.log("CLICK");
+        animationStart(dot.dataset.dotindex);
+      });
+    });
+    function animationStart(setIndex = null) {
+      if (setIndex) {
+        index = setIndex;
+      }
+      document.querySelector(
+        ".banner-production .btn.more"
+      ).href = `${arraybannersProductions[index].link}`;
+      document.querySelector(
+        ".banner-production img"
+      ).src = `${arraybannersProductions[index].image}`;
+      document.querySelector(
+        ".info .top h2"
+      ).innerHTML = `${arraybannersProductions[index].name}`;
+      document.querySelector(
+        ".director strong"
+      ).innerHTML = `${arraybannersProductions[index].director}`;
+      document.querySelector(
+        ".director span"
+      ).innerHTML = `${arraybannersProductions[index].cliente}`;
+      document.querySelector(
+        ".festivales"
+      ).innerHTML = `${arraybannersProductions[index].festivales}`;
+      document.querySelector(
+        ".platforms"
+      ).innerHTML = `${arraybannersProductions[index].plataformas}`;
+
+      document.querySelector(".director p").innerHTML = `${
+        arraybannersProductions[index].countries &&
+        arraybannersProductions[index].year &&
+        arraybannersProductions[index].time
+          ? `${arraybannersProductions[index].countries} / ${arraybannersProductions[index].year} / ${arraybannersProductions[index].time}`
+          : ``
+      }`;
+      dotElements[index].classList.add("active");
+
+      if (index == arraybannersProductions.length - 1) {
+        index = 0;
+        setTimeout(() => {
+          dotElements.forEach((dot) => dot.classList.remove("active"));
+        }, timeSlider - 300);
+      } else {
+        index++;
+      }
+      width = 0;
+    }
+    animationStart();
+    intervalAnimationStart = setInterval(() => {
+      animationStart();
+    }, timeSlider);
+  }
+  getAllInfoBannersProductions();
 }
 
 function get_alias(str) {
@@ -604,6 +701,7 @@ if (document.querySelector(".production")) {
                   </div>
                   <div class="platforms">
                   
+                  ${plataformas ? plataformas : ""}
                   </div>
                 </div>
               </div>
@@ -980,9 +1078,4 @@ if (document.querySelector(".banner-news")) {
   intervalAnimationStart = setInterval(() => {
     animationStart();
   }, timeSlider);
-  document.getElementById("preloader").classList.add("hidden");
-} else {
-  document.addEventListener("DOMContentLoaded", () => {
-    document.getElementById("preloader").classList.add("hidden");
-  });
 }

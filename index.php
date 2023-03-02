@@ -1,28 +1,20 @@
 <?php $bodyClass = "home"; include 'includes/header.php'; $banners = $sdk->gBanners(); ?>   
     <main>
       <div class="banner-home">
-        <img src="" alt="monos" />
+        <img src="" alt="" />
         <div class="info">
         <div class="top">
-            <h2>MONOS</h2>
+            <h2></h2>
             <div class="director">
-              <strong class="uppercase">Alejandro Landes</strong>
-              <p class="Barlow">
-                COLOMBIA, ARGENTINA, ALEMANIA, ESTADOS UNIDOS / 2019 / 102 MIN.
-              </p>
+              <strong class="uppercase"></strong>
+              <p class="Barlow"></p>
             </div>
           </div>
-          <div id="dots">
-        
-          </div>
+          <div id="dots"></div>
           <div class="bottom">
-            <div class="platforms">
-            
-            </div>
+            <div class="platforms"></div>
             <a href="" class="btn more uppercase">Quiero saber más</a>
-            <div class="festivales">
-              
-            </div>
+            <div class="festivales"></div>
           </div>
         </div>
         <img

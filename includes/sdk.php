@@ -56,7 +56,7 @@ class DynamoSDK {
       $ch = curl_init();
       curl_setopt($ch, CURLOPT_URL, $url);
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-      $filetitle = $this->get_alias($endpoint).".json";
+      $filetitle = $this->get_alias($endpoint . "?" . $query_string).".json";
       
       if($cache)
       {
